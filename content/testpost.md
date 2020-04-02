@@ -1,9 +1,5 @@
 title:In support of Pass/Fail Grading for Law Students who have transitioned online
-date:2020-03-20
-
-
-
-03/18/20 by Imran Malek
+date:2020-03-18
 
 # Introduction
 
