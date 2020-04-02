@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-
+PLUGINS=['pelican-plugins.assets']
 AUTHOR = 'Imran Malek'
 SITENAME = 'Imran Malek'
 SITEURL = ''
@@ -30,6 +30,6 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
-THEME = "pelican-themes/dev-random3"
+THEME = "pelican-themes/eevee"
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
