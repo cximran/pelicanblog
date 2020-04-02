@@ -30,6 +30,6 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
-THEME = "pelican-themes/eevee"
+THEME = "pelican-themes/blue-penguin"
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
