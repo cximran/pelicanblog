@@ -13,7 +13,9 @@ by Imran Malek, 🐤[twitter.com/imran_malek](http://twitter.com/imran_malek)
 
 With the WHO's recent [declaration](https://www.npr.org/sections/goatsandsoda/2020/03/11/814474930/coronavirus-covid-19-is-now-officially-a-pandemic-who-says) of a pandemic and the litany of [school closures](https://www.bostonglobe.com/2020/03/10/nation/list-area-colleges-canceling-classes-sending-students-home-due-coronavirus/) happening due to [COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen), many law schools are shifting the rest of their classes this year to remote classes conducted through services like Zoom, Google Hangouts, Skype, or WebEx. 
 
-As a former engineer who spent a lot of time working remotely, there are a few things that I've picked up from experience and from reading various productivity/business books that I think would be useful to share. 
+As a former engineer who spent a lot of time working remotely, there are a few things that I've picked up from experience and from reading various productivity/business books that I think would be useful to share.
+
+Testing some more content to see if autobuild works. 
 
 # Getting started
 
