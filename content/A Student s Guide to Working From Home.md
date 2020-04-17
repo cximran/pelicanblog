@@ -15,7 +15,6 @@ With the WHO's recent [declaration](https://www.npr.org/sections/goatsandsoda/20
 
 As a former engineer who spent a lot of time working remotely, there are a few things that I've picked up from experience and from reading various productivity/business books that I think would be useful to share.
 
-Testing some more content to see if autobuild works. 
 
 # Getting started
 
