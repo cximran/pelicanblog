@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 PLUGINS=['pelican-plugins.assets']
 AUTHOR = 'Imran Malek'
 SITENAME = 'Imran Malek'
-SITEURL = ''
+SITEURL = 'http://imranmalek.com'
 
 PATH = 'content'
 
@@ -18,6 +18,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+STATIC_PATHS=['images','pdfs']
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
