@@ -3,7 +3,7 @@ date: 2020-03-12
 
 by Imran Malek, 🐤[twitter.com/imran_malek](http://twitter.com/imran_malek)
 
-![A%20Student%20s%20Guide%20to%20Working%20From%20Home/Untitled.png](A%20Student%20s%20Guide%20to%20Working%20From%20Home/Untitled.png)
+![Working from Home Image]({static}/images/wfh.png)
 
 100% realistic depiction of an actual Boston apartment ([image source](https://www.nextiva.com/blog/))
 
