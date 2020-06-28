@@ -31,6 +31,6 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
-THEME = "pelican-themes/blue-penguin"
+THEME = "pelican-themes/voidy-bootstrap-master"
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
