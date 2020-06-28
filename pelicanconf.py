@@ -19,6 +19,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 STATIC_PATHS=['images','pdfs']
+BOOTSTRAP_STYLESHEET ="slate_bootstrap.css"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
