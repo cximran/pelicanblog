@@ -1,11 +1,9 @@
 title: A Student's Guide to 'Working From Home'
 date: 2020-03-12
 
-by Imran Malek, 🐤[twitter.com/imran_malek](http://twitter.com/imran_malek)
 
 ![Working from Home Image]({static}/images/wfh.png)
-
-100% realistic depiction of an actual Boston apartment ([image source](https://www.nextiva.com/blog/))
+([image source](https://www.nextiva.com/blog/))
 
 **Update 2020-03-12-1155:** Added a section on Security, moved VPN topic there  
 

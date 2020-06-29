@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 STATIC_PATHS=['images','pdfs']
 BOOTSTRAP_STYLESHEET ="slate_bootstrap.css"
-
+SUMMARY_MAX_LENGTH = 150
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
