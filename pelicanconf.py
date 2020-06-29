@@ -18,7 +18,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-STATIC_PATHS=['images','pdfs']
+STATIC_PATHS=['images','pdfs','extra']
 BOOTSTRAP_STYLESHEET ="slate_bootstrap.css"
 SUMMARY_MAX_LENGTH = 150
 GOOGLE_ANALYTICS = "UA-36952440-1"
@@ -54,3 +54,11 @@ SOCIAL = (
         ('GitHub', 'https://github.com/cximran',
         'fab fa-github-square fa-fw fa-lg'),
         )
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'custom.css'},
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/LICENSE': {'path': 'LICENSE'},
+    'extra/README': {'path': 'README'},
+}
