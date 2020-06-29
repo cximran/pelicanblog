@@ -22,7 +22,7 @@ STATIC_PATHS=['images','pdfs']
 BOOTSTRAP_STYLESHEET ="slate_bootstrap.css"
 SUMMARY_MAX_LENGTH = 150
 GOOGLE_ANALYTICS = "UA-36952440-1"
- TWITTER_USERNAME = "Imran_Malek"
+TWITTER_USERNAME = "Imran_Malek"
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
@@ -36,5 +36,6 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 THEME = "pelican-themes/voidy-bootstrap-master"
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
 SKIP_DEFAULT_NAVIGATION = True
