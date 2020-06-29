@@ -23,6 +23,7 @@ BOOTSTRAP_STYLESHEET ="slate_bootstrap.css"
 SUMMARY_MAX_LENGTH = 150
 GOOGLE_ANALYTICS = "UA-36952440-1"
 TWITTER_USERNAME = "Imran_Malek"
+CUSTOM_SIDEBAR_TOP = "Hello, Custom Sidebar Top"
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
@@ -40,3 +41,11 @@ RELATIVE_URLS = True
 SIDEBAR = "sidebar.html"
 
 SKIP_DEFAULT_NAVIGATION = True
+SOCIAL = (
+        ('Twitter', 'https://twitter.com/imran_malek',
+        'fab fa-twitter-square fa-fw fa-lg'),
+        ('LinkedIn', 'https://linkedin.com/in/imranmalek/',
+        'fab fa-linkedin fa-fw fa-lg'),
+        ('GitHub', 'https://github.com/cximran',
+        'fab fa-github-square fa-fw fa-lg'),
+        )
