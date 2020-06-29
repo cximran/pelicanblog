@@ -2,7 +2,6 @@ title: A Student's Guide to 'Working From Home'
 date: 2020-03-12
 
 
-![Working from Home Image]({static}/images/wfh.png)
 ([image source](https://www.nextiva.com/blog/))
 <div class="caption center-block">Test</div>
   <img src="{static}/images/wfh.png" class="img-responsive" alt="A generic square placeholder image with rounded corners in a figure.">
