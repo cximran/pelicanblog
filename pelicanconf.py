@@ -37,5 +37,6 @@ DEFAULT_PAGINATION = False
 THEME = "pelican-themes/voidy-bootstrap-master"
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+SIDEBAR = "sidebar.html"
 
 SKIP_DEFAULT_NAVIGATION = True
