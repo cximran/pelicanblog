@@ -39,7 +39,11 @@ THEME = "pelican-themes/voidy-bootstrap-master"
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 SIDEBAR = "sidebar.html"
-
+FONT_AWESOME_CDN_LINK = {
+    'href': 'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
+    'integrity': 'sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp',
+    'crossorigin': 'anonymous'
+}
 SKIP_DEFAULT_NAVIGATION = True
 SOCIAL = (
         ('Twitter', 'https://twitter.com/imran_malek',
