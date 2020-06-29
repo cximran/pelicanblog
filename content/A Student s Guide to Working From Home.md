@@ -4,11 +4,8 @@ date: 2020-03-12
 
 ![Working from Home Image]({static}/images/wfh.png)
 ([image source](https://www.nextiva.com/blog/))
-
-<figure class="figure">
-  <img src="{static}/images/wfh.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-  <figcaption class="figure-caption">A caption for the above image.</figcaption>
-</figure>
+<div class="caption center-block">Test</div>
+  <img src="{static}/images/wfh.png" class="img-responsive" alt="A generic square placeholder image with rounded corners in a figure.">
 
 **Update 2020-03-12-1155:** Added a section on Security, moved VPN topic there  
 
