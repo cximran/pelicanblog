@@ -45,7 +45,7 @@ FONT_AWESOME_CDN_LINK = {
     'integrity': 'sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp',
     'crossorigin': 'anonymous'
 }
-SKIP_DEFAULT_NAVIGATION = True
+SKIP_DEFAULT_NAVIGATION = False
 SOCIAL = (
         ('Twitter', 'https://twitter.com/imran_malek',
         'fab fa-twitter-square fa-fw fa-lg'),
