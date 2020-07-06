@@ -2,6 +2,7 @@ title: Testing Python Code Block
 date: 2020-06-20
 category:programming
 summary: Testing new code blocks via Pelican
+status: draft
 
 Here is a code block.
 
