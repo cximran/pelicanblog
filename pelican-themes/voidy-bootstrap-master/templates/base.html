@@ -8,10 +8,10 @@
     <meta name="author" content="{{ AUTHOR }}" />
     <meta name="generator" content="Pelican" />
     {% if article and article.summary %}
-<meta name="description" content="{{ article.summary|striptags }}"/>
-{% else %}
-<meta name="description" content="{{ SITE_SUMMARY }}"/>
-{% endif%}  
+    <meta name="description" content="{{ article.summary|striptags }}"/>
+    {% else %}
+    <meta name="description" content="{{ SITE_SUMMARY }}"/>
+    {% endif%}  
 	{% block meta_other %}{% endblock %}
     {% if OPEN_GRAPH_FB_APP_ID %}
     <meta property="fb:app_id" content="{{ OPEN_GRAPH_FB_APP_ID }}"/>
