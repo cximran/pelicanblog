@@ -1,7 +1,8 @@
 title: A Student's Guide to 'Working From Home'
 date: 2020-03-12
-category: school
-description: For students working from home as a result of the COVID-19 pandemic, this guide provides information about tools and techniques you can use to stay focused and get work done. 
+category: school, law school
+description: For students working from home as a result of the COVID-19 pandemic, this guide provides information about tools and techniques you can use to stay focused and get work done.
+status: published 
 
   <img src="{static}/images/wfh.png" class="img-responsive" alt="A generic square placeholder image with rounded corners in a figure.">
 
