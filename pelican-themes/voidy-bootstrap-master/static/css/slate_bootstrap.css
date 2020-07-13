@@ -96,6 +96,11 @@ sub {
 img {
   border: 0;
 }
+
+#content a:link {
+  font-weight: bolder;
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
