@@ -1,4 +1,4 @@
-title: My Concerns with an Online Bar Exam Administration
+title: My concerns with an online Bar exam administration
 date: 2020-07-12-2126
 category: law school, law
 description: Expressing concerns about a remote/online administration of the bar exam, including inequality, technical issues, and privacy impliocations. 
