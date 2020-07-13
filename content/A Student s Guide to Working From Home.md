@@ -1,6 +1,7 @@
 title: A Student's Guide to 'Working From Home'
 date: 2020-03-12
-category: school, law school
+category: law school
+tags: remote working, law school
 description: For students working from home as a result of the COVID-19 pandemic, this guide provides information about tools and techniques you can use to stay focused and get work done.
 status: published 
 
