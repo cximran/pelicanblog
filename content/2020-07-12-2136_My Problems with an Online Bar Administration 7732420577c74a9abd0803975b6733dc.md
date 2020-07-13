@@ -34,7 +34,11 @@ What is going to happen when someone's computer fails during the bar exam? Is th
 
 These problems are also compounded by issues of internet connectivity. With [internet outages increasing](https://www.fing.com/news/internet-outage-trends-during-covid-19-pandemic) due to capacity issues caused by an increasingly online working population, bar exam takers are effectively placing their futures in the hands of internet service providers. Comcast, for example, experienced [26 instances of problems or outages](https://downdetector.com/status/comcast-xfinity/archive/2020/06/) during the month of June alone. Of course, a vendor like ExamSoft will argue that a stable internet connection is not required for the duration of the exam, just the downloading of questions and uploading of answers, but without a generous "grace period" given to all exam takers who end up experiencing outages that could last for hours and hours, internet connectivity will be an issue. 
 
-In lieu of sending every single test taker a preconfigured "loaner" laptop *just* to take the exam (and even that will invariably have problems), I highly doubt that a remote administration of the bar exam will be without significant technical issues for a good portion of the population. 
+In lieu of sending every single test taker a preconfigured "loaner" laptop *just* to take the exam (and even that will invariably have problems), I highly doubt that a remote administration of the bar exam will be without significant technical issues for a good portion of the population.
+
+## Edit - 07/13/20 - Algorithmic unfairness 
+
+One of my law school classmates, [Julia Schur](https://twitter.com/juliahlna?lang=en), mentioned this to me that I completely forgot to include in my original upload. If ExamSoft is going to be using their machine learning platform to detect cheating, do we have any insight as to whether they have trained their models on a diverse pool of candidates? I'm hoping that ExamSoft has developed a mechanism to demonstrate that their cheating detection algorithms don't disproportionally affect BIPOC individuals. [More information on algorithmic unfairness here.](https://towardsdatascience.com/a-gentle-introduction-to-the-discussion-on-algorithmic-fairness-740bbb469b6)
 
 # Privacy Concerns
 
