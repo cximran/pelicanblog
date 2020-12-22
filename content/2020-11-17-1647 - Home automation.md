@@ -6,6 +6,5 @@ description: Articulating my first few steps into home automation.
 status: draft 
 
 
-**NOTE**: This article does not endorse public exhibition of media that you do not own or have access to. 
 
 
