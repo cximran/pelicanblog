@@ -8,5 +8,5 @@ status: published
 
 **NOTE**: This article does not endorse public exhibition of media that you do not own or have access to. 
 
-![](./images/streaming_setup.png)
+  <img src="./images/streaming_setup.png" class="img-responsive" alt="A schematic showing a basic artictecture of a streaming media setup.">
 
