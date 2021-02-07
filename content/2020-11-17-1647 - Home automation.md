@@ -13,11 +13,11 @@ Strangely enough, there was one thing that motivated this entire adventure. Our 
 
 ## Fundamentals  
 
-The first thing that I did before even starting along this journey was understand the *basics* of how the various pieces of equipment work inside my home. For this, I leaned heavily on Charlie Wing's book, [How Your House Works - A Visual Guide]("https://amzn.to/2XSvrRq"). The book provides a bunch of easy to interpret diagrams that clearly lay out how different components work - such as plumbing systems, light switches, HVAC, and even individual appliances like dishwashers, garbage disposals, and vacuum cleaners. While most people probably don't need such a rudimentary overview of all these things, I find it essential as a first-time home owner with very few "handy" skills. Most importantly, Wing lays out everything and makes no assumptions about existing knowledge - something that I found **essential**. 
+The first thing that I did before even starting along this journey was understand the *basics* of how the various pieces of equipment work inside my home. For this, I leaned heavily on Charlie Wing's book, [How Your House Works - A Visual Guide](https://amzn.to/2XSvrRq). The book provides a bunch of easy to interpret diagrams that clearly lay out how different components work - such as plumbing systems, light switches, HVAC, and even individual appliances like dishwashers, garbage disposals, and vacuum cleaners. While most people probably don't need such a rudimentary overview of all these things, I find it essential as a first-time home owner with very few "handy" skills. Most importantly, Wing lays out everything and makes no assumptions about existing knowledge - something that I found **essential**. 
 
   <img src="{static}/images/wing-book-sample.png" class="img-responsive" alt="A Sample image from Charlie Wing's book depicting a diagram of a circuit breaker box">
 
-Using the diagrams from Wing's book (plus a few other youtube tutorials on the topic) I quickly got up to speed on the basic electrical system in our house - including spending **way** too much time trying to demystify [3 and 4 way switch]("https://en.wikipedia.org/wiki/Multiway_switching) combinations. 
+Using the diagrams from Wing's book (plus a few other youtube tutorials on the topic) I quickly got up to speed on the basic electrical system in our house - including spending **way** too much time trying to demystify [3 and 4 way switch](https://en.wikipedia.org/wiki/Multiway_switching) combinations. 
 
 
 ## Hardware 
