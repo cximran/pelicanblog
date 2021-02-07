@@ -1,8 +1,8 @@
 ---
 title: My foray into home automation with home assistant 
 date:  2021-02-06 15:35:53
-category: home automation, home assistant
-tags: 
+category: home automation
+tags: home automation, home assistant, docker 
 description: Articulating my first few steps into home automation.
 status: published 
 ---
