@@ -54,7 +54,7 @@ supported_video_services = {
 """ 
 In order for this plugin to work optimally, you need to do just a few things:
 
-1. Enable the plugn in pelicanconf.py (see http://docs.getpelican.com/en/3.3.0/plugins.html for documentation):  
+1. Enable the plugn in pelicanconf.py.old (see http://docs.getpelican.com/en/3.3.0/plugins.html for documentation):  
 	PLUGIN_PATH = "/pelican-plugins"  
 	PLUGINS = ["video_privacy_enhancer"]
 
@@ -152,7 +152,7 @@ def process_shortcodes(data_passed_from_pelican):
 				
 				# print "Video ID is " + video_id_from_shortcode # Good for debugging purposes.
 				
-				# Use the Pelican pelicanconf.py settings:
+				# Use the Pelican pelicanconf.py.old settings:
 				pelican_output_path = data_passed_from_pelican.settings['OUTPUT_PATH']
 				pelican_site_url = data_passed_from_pelican.settings['SITEURL']
 				

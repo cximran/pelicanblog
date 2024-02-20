@@ -8,7 +8,7 @@ The purpose of this plugin is to allow explicit and quick jinja2 templating in y
 
 Example:
 
-    #pelicanconf.py
+    #pelicanconf.py.old
 
     SHORTCODES = {
         'image': "<img src=/images/{{src}}>{{desc|title}}<img>"

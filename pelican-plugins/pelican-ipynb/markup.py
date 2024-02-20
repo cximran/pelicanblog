@@ -37,7 +37,7 @@ class IPythonNB(BaseReader):
 
     Setup:
 
-    `pelicanconf.py`:
+    `pelicanconf.py.old`:
     ```
     MARKUP = ('md', 'ipynb')
     ```

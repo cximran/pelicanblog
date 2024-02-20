@@ -23,7 +23,7 @@ sources result in the URLs listed next to each file,
 you can use this plugin with the following Pelican settings:
 
 ```python
-# pelicanconf.py
+# pelicanconf.py.old
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 SLUGIFY_SOURCE = 'basename'

@@ -8,6 +8,6 @@ install:
     - pip install pelican markdown
 before_script:
     - git clone https://github.com/getpelican/pelican-plugins plugins
-script: pelican -s tests/pelicanconf.py
+script: pelican -s tests/pelicanconf.py.old
 notifications:
     email: false

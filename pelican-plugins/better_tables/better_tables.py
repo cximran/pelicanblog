@@ -32,7 +32,7 @@ I make no claim that /all/ HTML table crimes generated are corrected, merely
 the ones which I have stumbled across.
 
 Usage:
-    Enable the plugin in your pelicanconf.py
+    Enable the plugin in your pelicanconf.py.old
 
     PLUGINS = [
         # ...

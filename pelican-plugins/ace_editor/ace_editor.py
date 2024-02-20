@@ -45,7 +45,7 @@ def set_default_settings(settings):
 
 def theme_exist(ace_editor_theme):
     """
-    Determine if the ace_editor theme on pelicanconf.py really exist.
+    Determine if the ace_editor theme on pelicanconf.py.old really exist.
 
     If not : a warning give a suggestion.
     """
@@ -75,7 +75,7 @@ def init_ace(pelican):
     """
     Initialize Ace Editor plugin.
 
-    Override default settings by pelicanconf.py settings.
+    Override default settings by pelicanconf.py.old settings.
     """
     ace_settings = copy(pelican.settings['ACE_EDITOR_PLUGIN'])
     set_default_settings(DEFAULT_CONFIG)
@@ -108,7 +108,7 @@ class JsVar(object):
     """
     A fabric class who create Javascript variables.
 
-    To apply Ace_editor settings (declare on pelicanconf.py),
+    To apply Ace_editor settings (declare on pelicanconf.py.old),
     we need to convert Python variables to Javascripts.
     """
 

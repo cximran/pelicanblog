@@ -26,7 +26,7 @@ and then configured using the `PELICAN_COMMENT_SYSTEM_AUTHORS` setting.
 In my case, that looked like this:
 
 ```python
-# in pelicanconf.py
+# in pelicanconf.py.old
 PELICAN_COMMENT_SYSTEM_AUTHORS = {
     ('PROTIK KHAN', 'noreply@blogger.com'): "images/authors/rabiul_karim.webp",
     ('Matthew Hartzell', 'noreply@blogger.com'): "images/authors/matthew_hartzell.webp",

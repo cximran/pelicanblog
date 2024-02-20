@@ -18,7 +18,7 @@ SETTINGS.update(LOCAL_SETTINGS)
 
 CONFIG = {
     'settings_base': SETTINGS_FILE_BASE,
-    'settings_publish': 'publishconf.py',
+    'settings_publish': 'publishconf.py.old',
     # Output path. Can be absolute or relative to tasks.py. Default: 'output'
     'deploy_path': SETTINGS['OUTPUT_PATH'],
     # Port for `serve`

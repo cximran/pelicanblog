@@ -38,7 +38,7 @@ class TestFullRun(unittest.TestCase):
         base_path = os.path.join(base_path, 'test_data')
         content_path = os.path.join(base_path, 'content')
         output_path = os.path.join(base_path, 'output')
-        settings_path = os.path.join(base_path, 'pelicanconf.py')
+        settings_path = os.path.join(base_path, 'pelicanconf.py.old')
         settings = read_settings(path=settings_path,
                                  override={'PATH': content_path,
                                            'OUTPUT_PATH': self.temp_path,

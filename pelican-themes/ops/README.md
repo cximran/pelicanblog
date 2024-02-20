@@ -11,7 +11,7 @@ a pelican theme
 支持百度统计,多说评论，社会化分享,社交插件图片
 
 ```python
-# pelicanconf.py
+# pelicanconf.py.old
 DUOSHUONAME = 'liyuan-t'
 
 BAIDUID = 'Your Baidu ID'

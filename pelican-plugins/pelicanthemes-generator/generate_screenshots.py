@@ -26,9 +26,9 @@ def list_themes(themesroot):
 def generate_screenshot(themesroot, theme):
             print ("")
 
-            os.system("cat pelicanconf_default.py > pelicanconf.py")
-            os.system("cat confs/%s_pelicanconf.py >> pelicanconf.py" % theme)
-            os.system("echo \"THEME = '%s/%s'\" >> pelicanconf.py" % (themesroot, theme))
+            os.system("cat pelicanconf_default.py > pelicanconf.py.old")
+            os.system("cat confs/%s_pelicanconf.py >> pelicanconf.py.old" % theme)
+            os.system("echo \"THEME = '%s/%s'\" >> pelicanconf.py.old" % (themesroot, theme))
 
             print ("generate screenshot for %s" % theme)
             os.system("rm -rf output/*")

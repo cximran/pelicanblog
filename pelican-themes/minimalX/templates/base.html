@@ -95,7 +95,7 @@
       <div>
         <h6>Top Tags</h6>
         <ul>
-          <!-- Print the four most popular tags, sorted automatically with the setting TAG_CLOUD_SORTING = 'size' in pelicanconf.py -->
+          <!-- Print the four most popular tags, sorted automatically with the setting TAG_CLOUD_SORTING = 'size' in pelicanconf.py.old -->
           {% for tag in tag_cloud[:4] %}
           <li class=""><a href="{{ SITEURL }}/{{ tag.0.url }}"> #{{ tag.0 }} ({{ tag.2 }})</a></li>
           {% endfor %}

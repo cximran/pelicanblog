@@ -71,7 +71,7 @@ def themeconf(themesroot, themename):
     """
     themeconf <themename> <libconf>
     ex:
-      themeconf jesuislibre /dir/officialblogsrc/pelicanconf.py
+      themeconf jesuislibre /dir/officialblogsrc/pelicanconf.py.old
     """
     try:
         all_vars = get_all_tpl_vars(themesroot, themename)
@@ -86,7 +86,7 @@ def themeconf(themesroot, themename):
         # TODO found a solution for out the UTF8
         # text = "#!/usr/bin/env python\n# -*- coding: utf-8 -*- #\nfrom __future__ import unicode_literals\n\n"
 
-        # Show pelicanconf.py vars content
+        # Show pelicanconf.py.old vars content
         text = ""
         for var in all_vars:
             if var in m.__dict__:
