@@ -1,4 +1,4 @@
-pelican==4.2.0
+pelican==4.9.1
 pelican-autostatic==0.2.2
 asn1crypto==1.0.1
 astroid==2.3.1
