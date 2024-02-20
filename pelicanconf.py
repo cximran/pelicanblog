@@ -37,7 +37,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
-THEME = "pelican-themes/voidy-bootstrap-master"
+THEME = "pelican-themes/pelican-sober"
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 SIDEBAR = "sidebar.html"
