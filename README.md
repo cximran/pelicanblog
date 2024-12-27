@@ -1,3 +1,0 @@
-# pelicanblog
-
-Test Readme

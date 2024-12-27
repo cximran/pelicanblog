@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                        <meta charset="utf-8" />
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                        <meta name="generator" content="Pelican" />
+                        <title>A Pelican Blog - home automation</title>
+                        <link rel="stylesheet" href="/theme/css/main.css" />
+                                <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+        </head>
+
+        <body id="index" class="home">
+                <header id="banner" class="body">
+                        <h1><a href="/">A Pelican Blog</a></h1>
+                        <nav><ul>
+                                                <li><a href="/category/home-automation.html">home automation</a></li>
+                                                <li><a href="/category/law-school.html">law school</a></li>
+                                                <li><a href="/category/test.html">test</a></li>
+                        </ul></nav>
+                </header><!-- /#banner -->
+
+                <aside id="featured" class="body">
+                    <article>
+                        <h1 class="entry-title"><a href="/my-foray-into-home-automation-with-home-assistant.html">My foray into home automation with home assistant</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2021-02-06T15:35:53+00:00">
+                Published: Sat 06 February 2021
+        </abbr>
+
+        <p>In <a href="/category/home-automation.html">home automation</a>.</p>
+<p>tags: <a href="/tag/home-automation.html">home automation</a> <a href="/tag/home-assistant.html">home assistant</a> <a href="/tag/docker.html">docker</a> </p>        
+</footer><!-- /.post-info --><p>This post talks about my first foray into home automation. </p>
+<h2>Motivation</h2>
+<p>Strangely enough, there was one thing that motivated this entire adventure. Our home has a set of lights on the porch that need to get turned on every night. After a few weeks of manually turning them on (or forgetting to turn them off once day breaks), I broke down and decided that I would find a solution. Not content with a simple programmable timer, I wanted something that would turn the lights on at sunset and off at sunrise - without having to reprogram it every few months to account for seasonal changes. This was all the justification I needed to dig into home automation. </p>
+<h2>Fundamentals</h2>
+<p>The first thing that I did before even starting along this journey was understand the <em>basics</em> of how the various pieces of equipment work inside my home. For this, I leaned heavily on Charlie Wing's book, <a href="https://amzn.to/2XSvrRq">How Your House Works - A Visual Guide</a>. The book provides a bunch of easy to interpret diagrams that clearly lay out how different components work - such as plumbing systems, light switches, HVAC, and even individual appliances like dishwashers, garbage disposals, and vacuum cleaners. While most people probably don't need such a rudimentary overview of all these things, I find it essential as a first-time home owner with very few "handy" skills. Most importantly, Wing lays out everything and makes no assumptions about existing knowledge - something that I found <strong>essential</strong>. </p>
+<p><img src="/images/wing-book-sample.png" class="img-responsive" alt="A Sample image from Charlie Wing's book depicting a diagram of a circuit breaker box"></p>
+<p>Using the diagrams from Wing's book (plus a few other youtube tutorials on the topic) I quickly got up to speed on the basic electrical system in our house - including spending <strong>way</strong> too much time trying to demystify <a href="https://en.wikipedia.org/wiki/Multiway_switching">3 and 4 way switch</a> combinations. </p>
+<h2>Hardware</h2>
+<p>Of course, when working with <em>anything</em> related to electrical systems, if you're at all uncomfortable with it - call your local electrician.</p>
+<p>In terms of hardware for the installation, here's what I used: </p>
+<h3>Tools</h3>
+<ul>
+<li><a href="https://amzn.to/3oTv3Nn">Battery powered screwdriver</a>, to deal with electrical boxes </li>
+<li><a href="https://amzn.to/3cMhE7x">Non-contact voltage tester</a>, to make sure that there was to current running through anything I was working on </li>
+<li><a href="https://amzn.to/2YUa6qY">Wire stripper</a>, to strip, cut, and bend wires when needed </li>
+<li><a href="https://amzn.to/2N36L6w">Wire nuts</a>, to connect wires together </li>
+<li><a href="https://amzn.to/2YP7xGM">Romex indoor electrical wire</a>. I purchased a roll of the wire so that I could have a lot of extra wire available to me in the event that I needed to run an extra neutral wire or something like that. </li>
+<li><a href="https://amzn.to/3aKhTx4">Head lamp</a>. When you turn power off at the breaker, you're also likely to lose any of the light in the room so a head lamp is a necessity. </li>
+</ul>
+<h3>Smart Components</h3>
+<p>Of course, a smart home doesn't work without smart components, and I decided to have the majority of the components on a local Z-wave based network. I picked Z-wave for a few reasons, but the biggest one was that I didn't want to have my smart home peripherals reliant on a potentially spotty wifi network. Additionally, one of the big advantages I saw with Z-wave was that each Z-wave device functions as a repeater within the overall network, so a flipped switch on the top floor has an easy path to the home server in the basement. I <em>did</em>, however, have to resort to wifi when looking for smart light bulbs. I ultimately resorted to buying 6 <a href="https://amzn.to/3tAxgRy">TP-Link KL130 RGB Bulbs</a> when they were on sale. The bulbs actually work really well and adding colored lighting to a space really does wonders for atmosphere. </p>
+<ul>
+<li><a href="https://amzn.to/3tsvUYS">Inovelli 3-way Z-wave rocker switch</a></li>
+<li><a href="https://amzn.to/3tyeWbv">Zooz 3-way Z-wave toggle switch</a></li>
+<li><a href="https://amzn.to/3aDwAlL">Zooz Z-wave smart plug</a>, which is connected to a bedroom fan</li>
+</ul>
+<p>Between Inovelli and Zooz, I would personally pick Zooz as a smart switch brand to beat. While both the Inovelli and Zooz switches were easy to configure, the Inovelli switch appeared to have way more configuration options (e.g. customizing the LED color on the switch) that in my opinion didn't justify the price delta. </p>
+<p>I'm not going to elaborate too much on installing the switches since there are way better tutorials out there, particularly on <a href="https://www.youtube.com/watch?v=PXRqaDX7A3A">Youtube</a>. </p>
+<h3>Home Server Hardware</h3>
+<p>The "brains" behind the smart home operation is our humble home server, a 2019 Macbook Pro running Ubuntu in place of the original MacOS. Honestly, the big reason I went for Ubuntu was the fact that it I wanted to learn more about running a computer entirely through the command line. The server is connected to our home network using a USB-C to ethernet adapter, and it is also connected to a <a href="https://amzn.to/2YURyXE">Zooz USB Z-wave stick</a> that communicates with the local Z-wave network. </p>
+<h2>Software</h2>
+<p>The heart of the home automation setup we have at home is <a href="https://www.home-assistant.io/">Home Assistant</a>. I went with Home Assistant for the same reason I installed Ubuntu on the Macbook for the home server - I wanted to tinker! At the same time, I also wanted to learn a bit more about <a href="docker.com">Docker</a>, so I decided to run Home Assistant within a Docker container alongside a few other home server applications. Here is a crudely drawn sketch of the overall setup: </p>
+<p><img src="/images/homeassistant-docker-layout.png" class="img-responsive" alt="A crudely drawn image of my software setup"></p>
+<p>For most of the software set up, I followed the <a href="https://www.home-assistant.io/docs/installation/docker/">official documentation</a>. Surprisingly, it was mostly plug and play. The big issues I had were making sure that the external devices going into the server were passed through to the Home Assistant container. I found <a href="https://jackstromberg.com/2020/02/home-assistant-z-wave-docker-raspberrypi/">Jack Stromberg's tutorial</a> on the subject to be very helpful. </p>
+<p>After the initial set up, I had to individually link each of the Z-wave switches to the system. This actually was extremely easy thanks to the Home Assistant mobile app, which allowed me to effortlessly add Z-wave nodes incrementally as I moved my way up from the switches closest to the server to the switches on the third floor of the house. </p>
+<p>In addition to running Home Asssitant, I also added a container for <a href="https://jellyfin.org/">Jellyfin</a>, our media server, and <a href="https://www.duplicati.com/">Duplicati</a>, which regularly backs up all of the Home Assistant configuration files/keys, encrypts them, and backs them up to a cloud drive. </p>
+<h2>What's next?</h2>
+<p>So, right now I have Home Assistant controlling a few light switches and colored bulbs, but I have some ideas for what I want to do with the system in the coming months: </p>
+<ul>
+<li>Flashing bulbs/lights when someone approaches the front door </li>
+<li>Humidity/temperature sensors that alert us when there's a potential leak or heater being left on </li>
+<li>Motion activated lights that slowly dim on and off when people walk within certain rooms. </li>
+</ul>
+<p>I'm really excited to keep mucking around with this - it's been quite the education! </p>                    </article>
+                </aside><!-- /#featured -->
+                <section id="extras" class="body">
+                                <div class="social">
+                                        <h2>social</h2>
+                                        <ul>
+                                                        <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                                        </ul>
+                                </div><!-- /.social -->
+                </section><!-- /#extras -->
+
+                <footer id="contentinfo" class="body">
+                        <address id="about" class="vcard body">
+                                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+                        </address><!-- /#about -->
+
+                        <p>The theme is by <a rel="nofollow" href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                </footer><!-- /#contentinfo -->
+
+        </body>
+</html>
