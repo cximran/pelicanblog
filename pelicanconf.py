@@ -1,7 +1,7 @@
 AUTHOR = 'Imran Malek'
 SITENAME = 'Imran Malek'
 SITEURL = ""
-THEME = '/themes/voidy-bootstrap/'
+THEME = 'themes/vstrap/'
 PATH = "content"
 
 TIMEZONE = 'America/New_York'
